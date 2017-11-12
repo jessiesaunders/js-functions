@@ -374,8 +374,8 @@ function verifyDrinkingAge(age){
 	}
 }
 
-verifyDrinkingAge(19);
-var canDrink = verifyDrinkingAge(19);
+verifyDrinkingAge(22);
+var canDrink = verifyDrinkingAge(22);
 console.log(canDrink);
 
 /**
@@ -385,6 +385,14 @@ console.log(canDrink);
  */
 
 
+function throwParty(canDrink) {
+	if (canDrink === true) {
+		return "Chee Hoo! We going to da party!";
+		} else {return "Meh, see you at Starbucks.";
+	}
+}
+
+console.log(throwParty(canDrink));
 
 
 
